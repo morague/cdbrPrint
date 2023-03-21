@@ -1,0 +1,52 @@
+
+/* CONTENT */
+
+#content {
+    height: 80%;
+  }
+  
+  #barcode-container {
+    height: 100%;
+    margin: auto;
+  }
+  
+  #barcode {
+    height: 50px;
+    width: 30%;
+    margin-right: -6px;
+    border: #0f0f0f solid 3px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+  
+  #qty {
+    height: 50px;
+    width: 75px;
+    border: #0f0f0f solid 3px;
+    border-radius: 0px;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button { 
+        -webkit-appearance: none;
+  }
+  
+  #generator {
+    height: 58px;
+    width: 150px;
+    margin-left: -6px;
+    background-color: white;
+    border: #0f0f0f solid 3px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  
+  #generator:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+  }
+
+  #inp-container, #barcode-label {
+    display: block;
+  }
+  
